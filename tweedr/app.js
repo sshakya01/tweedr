@@ -3,12 +3,8 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const methodOverride = require('method-override');
 const cors = require('cors');
 const app = express();
-
-/* importing routes */
-const tweedRoutes = require('./routes/tweedroutes');
 
 /* setting up port & listen */
 const PORT = process.env.PORT || 3000;
@@ -25,12 +21,15 @@ app.use(logger('dev'));
 /* setting up body parser */
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(methodOverride('_method'));
 
 /* setting routes */
+/* ====================== INDEX ROUTE ========= */
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });
+
+/* tweeds API route */
+const tweedRoutes = require('./routes/tweedroutes');
 app.use('/api/tweeds', tweedRoutes);
 
 /* handling 404 */

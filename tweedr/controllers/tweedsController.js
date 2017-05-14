@@ -38,6 +38,7 @@ tweedsController.create = (req, res) => {
       res.json({message: 'ok', data: { tweed }});
     })
     .catch(err => {
+      console.log(err);
       res.status(400).json({message: '400', err});
     });
 };

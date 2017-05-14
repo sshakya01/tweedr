@@ -21,9 +21,9 @@ Tweed.create = (tweed) => {
   return db.one(
     `
     INSERT INTO tweeds (tweed_text, tweed_time)
-    VALUES $1, $2
+    VALUES ($1, $2)
     RETURNING *`,
-    [tweed.tweed_text, tweed.tweed_time]
+    [tweed.tweed, tweed.time]
   );
 };
 
