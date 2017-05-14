@@ -1,4 +1,4 @@
-const Tweed = require('../models/quote');
+const Tweed = require('../models/tweed');
 
 const tweedsController = {};
 
