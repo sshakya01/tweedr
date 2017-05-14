@@ -15,28 +15,28 @@ Returns all tweeds in database.
 
 ```json
 {
-message: "ok",
-  data: {
-    tweeds: [
+"message": "ok",
+  "data": {
+    "tweeds": [
       {
-        id: "1",
-        tweed_text: "Hello World!",
-        tweed_time: "1494788500041"
+        "id": "1",
+        "tweed_text": "Hello World!",
+        "tweed_time": "1494788500041"
       },
       {
-        id: "2",
-        tweed_text: "I love using Tweedr... so much better than twitter.",
-        tweed_time: "1494788543350"
+        "id": "2",
+        "tweed_text": "I love using Tweedr... so much better than twitter.",
+        "tweed_time": "1494788543350"
       },
       {
-        id: "3",
-        tweed_text: "React is the best!",
-        tweed_time: "1494788564011"
+        "id": "3",
+        "tweed_text": "React is the best!",
+        "tweed_time": "1494788564011"
       },
       {
-        id: "4",
-        tweed_text: "testing tweed upload",
-        tweed_time: "1494792188509"
+        "id": "4",
+        "tweed_text": "testing tweed upload",
+        "tweed_time": "1494792188509"
       }
     ]
   }
@@ -49,12 +49,12 @@ Returns information about one specific tweed.
 
 ```json
 {
-  message: "ok",
-  data: {
-    tweed: {
-      id: "1",
-      tweed_text: "Hello World!",
-      tweed_time: "1494788500041"
+  "message": "ok",
+  "data": {
+    "tweed": {
+      "id": "1",
+      "tweed_text": "Hello World!",
+      "tweed_time": "1494788500041"
     }
   }
 }
@@ -68,12 +68,12 @@ The response looks like this:
 
 ```json
 {
-  message: "ok",
-  data: {
-    tweed: {
-      id: "5",
-      tweed_text: "makin that tweed",
-      tweed_time: "1494793073028"
+  "message": "ok",
+  "data": {
+    "tweed": {
+      "id": "5",
+      "tweed_text": "makin that tweed",
+      "tweed_time": "1494793073028"
     }
   }
 }
