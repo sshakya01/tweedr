@@ -10,16 +10,20 @@ An Express backend has already been provided for you, because we love you all ve
 
 ### Before you start
 
-Let's start practicing project workflow best practices.
+Let's start practicing project workflow best practices **OPTIONAL**.
 
 - Wireframe the mockup into the components you want to have
 - Write out your user stories
 - Make a project board with the code tasks from your user stories
 
-You will also need to set up the Tweedr database.
+You will need to set up the Tweedr database.
 - Create a database named `ada_tweedr_tues_dev`.
 - Run the migration & seed files in `tweedr/db`.
 - **Read the readme** in the `tweedr` directory -- it will give you all you need to know about the endpoints you'll be using.
+
+### Working with an Express server and a react app
+
+- [Read this tutorial on connecting an express server and React in development environment](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
 
 ## 🚀 Completion looks like:
 
