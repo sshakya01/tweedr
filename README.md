@@ -33,7 +33,6 @@ Your React/Express app should:
     - `TweedrFeed`: Holds `Tweed` components, which reflect the information in the database
     - `Tweed`: Holds one individual tweed
     - Any other components you see fit!
-- **BONUS**: Deploy your tweedr to Heroku! [Remember the Heroku steps?](https://git.generalassemb.ly/nyc-wdi-ada/HEROKU-EXPRESS) 🚨🚨🚨 NOTE: 🚨🚨🚨 If you tackle this bonus, you **must** put the entire app into a **new repository**, with the express app's `app.js` at the root level.
 
 ## 🚀 Your homework submission should include:
 
