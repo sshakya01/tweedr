@@ -1,4 +1,4 @@
-\c ada_tweedr_tues_dev
+\c tweedr_dev
 
 INSERT INTO tweeds (tweed_text, tweed_time) VALUES 
   ('Hello World!', 1494788500041),
