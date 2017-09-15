@@ -3,7 +3,7 @@
 To get the Tweedr API set up, you know the drill.
 
 - Install dependencies
-- Create database (`ada_tweedr_tues_dev`)
+- Create database (`tweedr_dev`)
 - Run seed & migration
 - Start the server!
 
@@ -62,7 +62,7 @@ Returns information about one specific tweed.
 
 ### POST `/api/tweeds`
 
-Adds a tweed to the database. Request body must include a `tweed` property. Refer back to the [Express as an API lecture](https://git.generalassemb.ly/nyc-wdi-ada/LECTURE_U03_D01_Express-as-an-API/blob/master/adaquotesapi-final/public/src/main.js#L34) and the [Ada API docs](http://ada-api.herokuapp.com/#post-to-apiquotes) for how to format a POST request with fetch.
+Adds a tweed to the database. Request body must include a `tweed` property. Refer back to the [LECTURE](https://git.generalassemb.ly/wdi-nyc-dresselhaus/react-form-input-lecture/blob/master/quotes-form-end/src/App.js) on how to create apost request using axios.
 
 The response looks like this:
 
