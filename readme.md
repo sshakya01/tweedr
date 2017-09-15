@@ -1,11 +1,12 @@
 # HOMEWORK: Tweedr!!
 
-Let's make a cool new app called ***TWEEDR***!! Not Twitter, geez...
+Let's make a cool new app called ***TWEEDR***!! Not Twitter, geez... 🙄
 
 An Express backend has already been provided for you, because we love you all very much. You will just need to create a React frontend for it. (You shouldn't need to modify anything in the Express backend, except to connect the React frontend. The model, controllers, etc. are all set up already.)
 
-You will continue working in your group for thi smini project.
-YOu know the drill: 
+You will continue working in your group for this mini project.
+
+You know the drill: 
 * nominate the Git Tzar 
     * IMPORTANT STEPS FOR THE TZAR:
         * `clone` THIS repo directly onto your machine
