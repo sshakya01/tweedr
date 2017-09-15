@@ -4,6 +4,22 @@ Let's make a cool new app called ***TWEEDR***!! Not Twitter, geez...
 
 An Express backend has already been provided for you, because we love you all very much. You will just need to create a React frontend for it. (You shouldn't need to modify anything in the Express backend, except to connect the React frontend. The model, controllers, etc. are all set up already.)
 
+You will continue working in your group for thi smini project.
+YOu know the drill: 
+* nominate the Git Tzar 
+    * IMPORTANT STEPS FOR THE TZAR:
+        * `clone` THIS repo directly onto your machine
+        * Create an empty repository on your GitHub account online
+        * Copy the the url of your empty repository using ssh 
+        * Using command `git remote set-url origin <paste-the-url-here>`
+        * The `git add and commit and push`
+        * Voila, you can see this repo on your own github account online
+* All the teammates should clone YOUR newly created repo
+* Finally, just like yesterday, Create a separate branch for each feature 
+* Push to the feature branch
+* Create a Pull request and assign each memeber of the team to approve it
+* After the request has been approved by everyone, merge it!
+ 
 ### Wireframe
 
 ![tweedr](./assets/tweedr.png)
@@ -17,7 +33,7 @@ Let's start practicing project workflow best practices **OPTIONAL**.
 - Make a project board with the code tasks from your user stories
 
 You will need to set up the Tweedr database.
-- Create a database named `ada_tweedr_tues_dev`.
+- Create a database named `tweedr_dev`.
 - Run the migration & seed files in `tweedr/db`.
 - **Read the readme** in the `tweedr` directory -- it will give you all you need to know about the endpoints you'll be using.
 
@@ -40,8 +56,9 @@ Your React/Express app should:
 
 ## 🚀 Your homework submission should include:
 
-- An issue ticket created on the repo `ada-students` [here](https://git.generalassemb.ly/nyc-wdi-ada/ada-students/issues/new)
-- A link to your fork of this repository
+- ONE issue ticket created on this repo.
+- In the title of your ticket, include the names of ALL team members
+- A link to your project
 - Completion, comfort, wins, losses, questions... you know the drill.
 
-## This homework is due 🚨 11PM ON WEDNESDAY NIGHT 🚨
+## This homework is due 🚨 11PM ON SUNDAY NIGHT 🚨
