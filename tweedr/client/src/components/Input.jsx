@@ -15,6 +15,7 @@ const Input = (props) => {
 
 // Makes the function available to the app
 export default Input
+<<<<<<< HEAD
 
 /* HANDLER METHODS TO BE MOVED OUT TO APP.JSX */
 this.handleTweed = this.handleTweed.bind(this)
@@ -33,3 +34,5 @@ handleSubmit(e) {
 
   // Connect to database and update
 }
+=======
+>>>>>>> 1e82187b5da7ccd2b4e2e1c918ec830755064819
