@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Tweed from './Tweed';
 
 class TweedList extends Component{
 
   render(){
     return (
-      <div>
+    <div>
     {this.props.data.map(tweed => {
       return <Tweed tweed={tweed} key = {tweed.id} />
     })}
