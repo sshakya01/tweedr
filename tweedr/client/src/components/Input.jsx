@@ -15,22 +15,3 @@ const Input = (props) => {
 
 // Makes the function available to the app
 export default Input
-
-
-/* HANDLER METHODS TO BE MOVED OUT TO APP.JSX */
-this.handleTweed = this.handleTweed.bind(this)
-this.handleSubmit = this.handleSubmit.bind(this)
-
-// Handles
-handleTweed(e) {
-  this.setState({
-    tweed: e.target.value,
-  })
-}
-
-/* Handler */
-handleSubmit(e) {
-  e.preventDefault()
-
-  // Connect to database and update
-}
