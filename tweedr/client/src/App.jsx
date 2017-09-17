@@ -39,24 +39,24 @@ class App extends Component {
 
   /* Handler */
   handleSubmit(e) {
-    e.preventDefault();
+    // e.preventDefault();
     console.log(this.state.tweed);
     axios.post('/api/tweeds', {
       tweed_text: this.state.tweed,
     })
     .then(res => {
       console.log(res);
-      // const newTweed = {
-      //   tweed: res.data.data.tweed.tweed_text,
-      //   time: res.data.data.tweed.tweed_time,
-      // }
+      const newTweed = {
+        tweed: res.data.data.tweed.tweed_text,
+        time: res.data.data.tweed.tweed_time,
+      }
 
-      // this.setState(prevState =>{
-      //   return {
-      //     data: prevState.data.concat(newTweed),
-      //   }
-      // }
-      // )
+      this.setState(prevState =>{
+        return {
+          data: prevState.data.concat(newTweed),
+        }
+      }
+      )
     }
 
       )
