@@ -1,17 +1,29 @@
 .App {
   text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 200;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 70px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: darkslategrey;
+  height: 100px;
   padding: 20px;
   color: white;
+  text-shadow: 2px 2px mediumseagreen;
+  font-size: 30px;
+}
+
+.App-header h2 {
+  line-height: 0px;
+  letter-spacing: 2px;
+  font-family: copperplate;
+  font-weight: 600;
+  margin-top: 13px;
 }
 
 .App-intro {
@@ -21,4 +33,37 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#Input {
+  background-color: seagreen;
+  padding: 10px;
+  border-top: 2px solid white;
+}
+
+#Input input {
+  height: 20px;
+  width: 20%;
+  margin-right: 20px;
+}
+
+#Input button {
+  height: 27px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px mediumseagreen;
+}
+
+#TweedList {
+  background-color: mediumseagreen;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.Tweed {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
 }
