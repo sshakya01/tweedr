@@ -12,7 +12,6 @@ class App extends Component {
     this.state = {
       data: [],
       tweed: '',
-      time: 0,
     }
     // HANDLER METHODS BINDERS
     this.handleTweed = this.handleTweed.bind(this)
@@ -35,7 +34,6 @@ class App extends Component {
   handleTweed(e) {
     this.setState({
       tweed: e.target.value,
-      time: this.state.time + 1,
     })
   }
 
