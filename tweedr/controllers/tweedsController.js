@@ -5,7 +5,7 @@ const tweedsController = {};
 tweedsController.index = (req, res) => {
   Tweed.findAll()
     .then(tweeds => {
-      res.json({ 
+      res.json({
         message: 'ok',
         data: { tweeds },
       });
@@ -30,8 +30,9 @@ tweedsController.show = (req, res) => {
 };
 
 tweedsController.create = (req, res) => {
+  console.log(req.body.tweed_text);
   Tweed.create({
-      tweed: req.body.tweed,
+      tweed: req.body.tweed_text,
       time: Date.now(),
     })
     .then(tweed => {

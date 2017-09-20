@@ -6,7 +6,7 @@ const Input = (props) => {
 
   // Passes out data to application
   return (
-    <form onSubmit={props.submit}>
+    <form id='Input' onSubmit={props.submit}>
       <input type="text" value={props.new} name="new" placeholder="Enter your Tweed here!" onChange={props.handleTweed} />
       <button>Submit</button>
     </form>
