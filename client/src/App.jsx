@@ -20,7 +20,7 @@ class App extends Component {
 
 
   componentDidMount(){
-    axios('http://localhost:3001/api/tweeds')
+    axios('https://localhost:3001/api/tweeds')
       .then(res => {
         this.setState(prevState => {
           return {
