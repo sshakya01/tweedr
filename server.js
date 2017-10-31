@@ -27,15 +27,11 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 /* setting routes */
 /* ====================== INDEX ROUTE ========= */
-app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/public/index.html');
-});
-
 /* tweeds API route */
 const tweedRoutes = require('./routes/tweedroutes');
 app.use('/api/tweeds', tweedRoutes);
 
-/* handling 404 */
-app.get('*', function(req, res) {
-  res.status(404).send({message: 'Oops! Not found.'});
+/* catch all to point to react entry point */
+app.get('/*', function (req, res) {
+   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
