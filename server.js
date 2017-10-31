@@ -13,11 +13,14 @@ app.listen(PORT, function() {
 });
 
 /* setting static file */
-app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'client/build')));
+
 /* setting up cors */
 app.use(cors());
+
 /* setting up logger */
 app.use(logger('dev'));
+
 /* setting up body parser */
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
