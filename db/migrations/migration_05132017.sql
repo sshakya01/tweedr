@@ -1,5 +1,3 @@
-\c tweedr_dev
-
 DROP TABLE IF EXISTS tweeds;
 
 CREATE TABLE IF NOT EXISTS tweeds (
